@@ -40,6 +40,25 @@ body {
   gap: 1rem;
 }
 
+/* Ensure logo sits left and nav sits to the right */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo image sizing */
+.navbar-logo {
+  max-height: 50px;      /* adjust as needed */
+  width: auto;
+  display: block;
+}
+
+/* Optional: add spacing */
+.navbar-logo-link {
+  margin-right: 1rem;
+}
+
 .nav-list li a {
   color: var(--color-secondary);
   text-decoration: none;
