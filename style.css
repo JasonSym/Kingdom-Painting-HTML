@@ -27,6 +27,7 @@ body {
 
 .navbar {
   background-color: #768350;
+  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
