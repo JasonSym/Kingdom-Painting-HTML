@@ -422,3 +422,39 @@
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
+/* reset any default margins on html/body and all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* make sure the page background matches your design */
+html,
+body {
+  background-color: var(--dl-color-custom-neutral-light);
+}
+
+/* kill any gaps on the hero section */
+.home-hero {
+  width: 100%;
+  margin: 0;   /* no stray margins */
+  padding: var(--dl-space-space-sixunits) var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-custom-neutral-light);
+}
+
+/* if your inner container ever had a top margin, nuke it */
+.home-hero .heroContainer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* reset the h1’s default margins so nothing collapses */
+.home-hero-heading {
+  margin: 0;
+}
