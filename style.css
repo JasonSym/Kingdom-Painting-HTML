@@ -38,7 +38,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-color-custom-secondary1: #E9E7DE;
   --dl-color-custom-neutral-dark: #1E2203;
-  --dl-color-custom-neutral-light: ##ffffff;
+  --dl-color-custom-neutral-light: #FBF9EF;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .home-banner-image {
@@ -232,7 +232,7 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
-  background-color: #FBF9EF !important;
+  background-color: var(--dl-color-custom-neutral-light);
 }
 .mobileMenu {
   color: var(--dl-color-custom-neutral-dark);
