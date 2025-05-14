@@ -309,6 +309,9 @@
   font-weight: 600;
   line-height: 150%;
 }
+.heading3 + .bodySmall {
+  margin-top: 0.25rem;     /* only applies when a .bodySmall follows a .heading3 */
+}
 .overline {
   font-size: 12px;
   font-family: Cabin;
