@@ -226,7 +226,6 @@
   color: var(--dl-color-custom-neutral-dark);
   width: 100%;
   display: flex;
-  position: sticky;
   align-items: center;
   padding-top: var(--dl-space-space-oneandhalfunits);
   padding-left: var(--dl-space-space-threeunits);
