@@ -211,6 +211,7 @@
   flex: 0 0 auto;
   color: var(--dl-color-custom-neutral-dark);
   width: 100%;
+  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   flex-direction: row;
