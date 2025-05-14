@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kingdom Painting</title>
 
+    <!-- Open Graph / Twitter Card -->
+    <meta property="og:title" content="Kingdom Painting">
+    <meta property="og:image" content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/0be7b666-4592-4811-8006-ba84255b3008/f775afff-667b-422f-baca-ac49e9703b3a?org_if_sml=1&force_format=original">
+    <meta name="twitter:card" content="summary_large_image">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="public/screenshot 2024-03-10 192546.png" type="image/png" sizes="32x32">
 
@@ -29,7 +34,7 @@
         font-size: 16px;
         font-weight: 400;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-custom-neutral-light); /* #FBF9EF */
+        background-color: var(--dl-color-gray-white);
       }
       *, *::before, *::after {
         box-sizing: border-box;
@@ -53,6 +58,12 @@
       <!-- Navbar -->
       <header data-thq="thq-navbar" class="navbarContainer home-navbar-interactive">
         <span class="logo">KINGDOM</span>
+        <div data-thq="thq-navbar-nav" class="home-desktop-menu"></div>
+        <div data-thq="thq-burger-menu" class="home-burger-menu">
+          <svg viewBox="0 0 1024 1024" class="home-icon socialIcons">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552...z"></path>
+          </svg>
+        </div>
         <div data-thq="thq-mobile-menu" class="home-mobile-menu1 mobileMenu">
           <div class="home-nav">
             <div class="home-top">
@@ -152,6 +163,7 @@
         <div class="faqContainer">
           <div class="home-faq1">
             <div class="home-container4">
+              <span class="overline">FAQ</span>
               <h2 class="heading2">Common Questions</h2>
               <p class="bodyLarge">Here are some of the most common questions that we get.</p>
             </div>
@@ -182,7 +194,7 @@
         <div class="home-container6"><span class="logo">KINGDOM</span></div>
         <div class="home-separator"></div>
         <div class="home-container7">
-          <p class="bodySmall home-text35">© 2025 Kingdom Painting, All Rights Reserved.</p>
+          <p class="bodySmall home-text35">© 2024 Kingdom Painting, All Rights Reserved.</p>
         </div>
       </footer>
 
