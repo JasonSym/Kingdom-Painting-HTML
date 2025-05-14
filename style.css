@@ -44,6 +44,7 @@
 .home-banner-image {
   display: block;      /* makes the img act like a block element */
   margin: 0 auto;      /* top/bottom 0, left/right auto → horizontal centering */
+  padding: 1rem;       /* <-- adds padding on all sides */
 }
 .button {
   color: var(--dl-color-gray-black);
