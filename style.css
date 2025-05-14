@@ -56,7 +56,17 @@ body {
 
 /* Optional: add spacing */
 .navbar-logo-link {
-  margin-right: 1rem;
+  display: inline-flex;
+  align-items: center;       /* vertically center image & text */
+  text-decoration: none;
+}
+
+/* add a little breathing room & style for the text */
+.logo-text {
+  margin-left: 0.5rem;
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  color: var(--color-primary);
 }
 
 .nav-list li a {
