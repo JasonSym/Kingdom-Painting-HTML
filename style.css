@@ -173,9 +173,6 @@
   justify-content: space-between;
   background-color: var(--dl-color-custom-neutral-light);
 }
-.socialIcons {
-  fill: var(--dl-color-custom-neutral-dark);
-}
 .Heading {
   font-size: 32px;
   font-family: Inter;
