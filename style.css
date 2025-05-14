@@ -168,50 +168,10 @@
   flex-shrink: 0;
   margin-right: var(--dl-space-space-oneandhalfunits);
 }
-.freePricingCard {
-  gap: var(--dl-space-space-twounits);
-  color: var(--dl-color-custom-neutral-dark);
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  max-width: 450px;
-  min-height: 450px;
-  align-items: flex-start;
-  border-radius: 32px;
-  flex-direction: column;
-  background-color: var(--dl-color-custom-secondary1);
-}
-.basicPricingCard {
-  gap: var(--dl-space-space-twounits);
-  color: var(--dl-color-custom-neutral-dark);
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  max-width: 450px;
-  min-height: 450px;
-  align-items: flex-start;
-  border-radius: 32px;
-  flex-direction: column;
-  background-color: var(--dl-color-custom-secondary1);
-}
-.proPricingCard {
-  gap: var(--dl-space-space-twounits);
-  color: var(--dl-color-custom-neutral-dark);
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-twounits);
-  max-width: 450px;
-  min-height: 450px;
-  align-items: flex-start;
-  border-radius: 32px;
-  flex-direction: column;
-  background-color: var(--dl-color-custom-secondary1);
-}
 .faqContainer {
   flex: 0 0 auto;
   color: var(--dl-color-custom-neutral-dark);
   width: 100%;
-  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -240,20 +200,6 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
-  justify-content: center;
-  background-color: var(--dl-color-custom-neutral-light);
-}
-.pricingContainer {
-  gap: var(--dl-space-space-twounits);
-  color: var(--dl-color-custom-neutral-dark);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fourunits);
   justify-content: center;
   background-color: var(--dl-color-custom-neutral-light);
 }
