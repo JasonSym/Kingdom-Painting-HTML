@@ -41,6 +41,10 @@
   --dl-color-custom-neutral-light: #FBF9EF;
   --dl-space-space-oneandhalfunits: 24px;
 }
+.home-banner-image {
+  display: block;      /* makes the img act like a block element */
+  margin: 0 auto;      /* top/bottom 0, left/right auto → horizontal centering */
+}
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
