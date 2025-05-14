@@ -136,7 +136,7 @@ html, body {
 }
 
 .home-header {
-  position: fixed;
+  position: flex;
   top: 0;
   width: 100%;
   background-color: var(--dl-color-custom-neutral-light);
