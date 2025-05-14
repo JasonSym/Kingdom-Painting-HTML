@@ -218,11 +218,17 @@
   background-color: var(--dl-color-custom-accent1);
 }
 .navbarContainer {
-  position: sticky;
-  top: 0;
-  left: 0;
+  color: var(--dl-color-custom-neutral-dark);
   width: 100%;
-  z-index: 1000;     /* make sure it’s above everything else */
+  display: flex;
+  position: sticky;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: var(--dl-color-custom-neutral-light);
 }
 .mobileMenu {
   color: var(--dl-color-custom-neutral-dark);
@@ -338,7 +344,7 @@
   font-size: 18px;
   font-family: Cabin;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 150%;
 }
 .heading1 {
   font-size: 48px;
