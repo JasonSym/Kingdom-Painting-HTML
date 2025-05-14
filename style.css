@@ -218,17 +218,11 @@
   background-color: var(--dl-color-custom-accent1);
 }
 .navbarContainer {
-  color: var(--dl-color-custom-neutral-dark);
-  width: 100%;
-  display: flex;
   position: sticky;
-  align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: space-between;
-  background-color: var(--dl-color-custom-neutral-light);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;     /* make sure it’s above everything else */
 }
 .mobileMenu {
   color: var(--dl-color-custom-neutral-dark);
