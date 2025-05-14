@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingdom Painting</title>
+  <!-- Link to the external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <span class="logo">KINGDOM</span>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Kingdom Painting Services</h1>
+      <p>Transforming spaces with quality painting services.</p>
+      <img src="images/painting-banner.jpg" alt="Painter at work" class="hero-image">
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Our Key Features</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Professional Painters</h3>
+          <p>Experienced and skilled painters dedicated to quality.</p>
+        </div>
+        <div class="feature">
+          <h3>Premium Materials</h3>
+          <p>Using top-notch paints for long-lasting finishes.</p>
+        </div>
+        <div class="feature">
+          <h3>Attention to Detail</h3>
+          <p>Precision in every stroke for a flawless look.</p>
+        </div>
+        <div class="feature">
+          <h3>Customer Satisfaction</h3>
+          <p>Committed to ensuring clients are happy with the outcome.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>What services do you offer?</h3>
+        <p>Interior, exterior, commercial, and residential painting.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I request a quote?</h3>
+        <p>Contact us via phone or email for a free estimate.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where do you operate?</h3>
+        <p>We serve Makotuku, Ormondville, Norsewood, Takapau, and Dannevirke.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="footer-contact">
+    <div class="container">
+      <p>Email: kevin@kingdom.org.nz | Phone: 020 4069 6358</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span class="logo">KINGDOM</span>
+      <p>© 2024 Kingdom Painting. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
